@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^(en|de|fr)$  ?lang=$1 [L,QSA]
